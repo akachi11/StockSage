@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Apple Inc.",
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "asset_type": "stock",
+    "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories. Its flagship products include the iPhone, Mac, iPad, Apple Watch, and a growing portfolio of subscription services such as Apple Music, iCloud, and Apple TV+. Apple is known for tight integration between hardware, software, and services, and maintains one of the most valuable brands in the world.",
+    "current_price": 227.5,
+    "performance_ytd": 14.2,
+    "risk_level": "moderate"
+  },
+  {
+    "name": "Vanguard S&P 500 ETF",
+    "ticker": "VOO",
+    "sector": "Diversified",
+    "asset_type": "etf",
+    "description": "The Vanguard S&P 500 ETF tracks the performance of the S&P 500 Index, giving investors broad exposure to 500 of the largest publicly traded companies in the United States across all major sectors. It is widely used as a low-cost, passively managed core holding for long-term investors seeking diversified exposure to the U.S. equity market.",
+    "current_price": 512.3,
+    "performance_ytd": 11.8,
+    "risk_level": "moderate"
+  },
+  {
+    "name": "Bitcoin",
+    "ticker": "BTC",
+    "sector": "Digital Assets",
+    "asset_type": "crypto",
+    "description": "Bitcoin is a decentralized digital currency that operates without a central bank or single administrator, using a peer-to-peer network and blockchain technology to record transactions. It is the first and largest cryptocurrency by market capitalization and is often viewed by investors as a speculative store of value, sometimes referred to as digital gold.",
+    "current_price": 64200,
+    "performance_ytd": 38.6,
+    "risk_level": "high"
+  },
+  {
+    "name": "Vanguard Total Bond Market ETF",
+    "ticker": "BND",
+    "sector": "Fixed Income",
+    "asset_type": "bond fund",
+    "description": "The Vanguard Total Bond Market ETF provides broad exposure to U.S. investment-grade bonds, including government, corporate, and mortgage-backed securities across short-, intermediate-, and long-term maturities. It is commonly used to add stability and income to a portfolio and to offset the volatility of equity holdings.",
+    "current_price": 72.1,
+    "performance_ytd": 3.4,
+    "risk_level": "low"
+  },
+  {
+    "name": "NVIDIA Corporation",
+    "ticker": "NVDA",
+    "sector": "Technology",
+    "asset_type": "stock",
+    "description": "NVIDIA Corporation designs graphics processing units (GPUs) for gaming, professional visualization, data centers, and automotive markets, and has become a leading provider of the hardware and software platforms used to train and run artificial intelligence models. Its data center and AI accelerator business has driven significant revenue growth in recent years.",
+    "current_price": 138.7,
+    "performance_ytd": 62.1,
+    "risk_level": "high"
+  }
+]
