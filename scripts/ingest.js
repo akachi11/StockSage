@@ -14,7 +14,8 @@ function sleep(ms) {
 function buildDocuments(asset) {
   const overview = `${asset.name} (${asset.ticker}) is a ${asset.asset_type} in the ${asset.sector} sector. ${asset.description}`;
   const stats = `${asset.name} (${asset.ticker}) currently trades at $${asset.current_price}, with year-to-date performance of ${asset.performance_ytd}% and a risk level of ${asset.risk_level}.`;
-  return [overview, stats];
+  const topicDocs = (asset.topics || []).map((t) => `${asset.name} (${asset.ticker}): ${t.content}`);
+  return [overview, stats, ...topicDocs];
 }
 
 async function upsertAsset(asset) {

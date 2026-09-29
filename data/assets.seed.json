@@ -7,7 +7,33 @@
     "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories. Its flagship products include the iPhone, Mac, iPad, Apple Watch, and a growing portfolio of subscription services such as Apple Music, iCloud, and Apple TV+. Apple is known for tight integration between hardware, software, and services, and maintains one of the most valuable brands in the world.",
     "current_price": 227.5,
     "performance_ytd": 14.2,
-    "risk_level": "moderate"
+    "risk_level": "moderate",
+    "topics": [
+      {
+        "topic": "business_model",
+        "content": "Apple generates most of its revenue from hardware sales, primarily the iPhone, supplemented by a fast-growing services segment that includes the App Store, iCloud, Apple Music, and AppleCare. This mix of large upfront hardware sales and a growing base of recurring services revenue gives Apple both scale and predictability."
+      },
+      {
+        "topic": "growth_drivers",
+        "content": "Apple's growth is driven by upgrade cycles across its hardware lineup, expansion of its services business, and pushes into new product categories such as wearables and augmented reality. Customers who stay within Apple's ecosystem tend to keep buying new devices and subscribing to more services over time."
+      },
+      {
+        "topic": "risks",
+        "content": "Key risks for Apple include heavy reliance on iPhone sales, potential slowdowns in the Chinese market, supply chain disruptions, and regulatory scrutiny over App Store fees and practices in the United States and Europe."
+      },
+      {
+        "topic": "investor_suitability",
+        "content": "Apple is often considered a core holding for investors seeking exposure to established, financially strong technology companies. Its moderate risk level and consistent cash flow make it more suitable for investors who want technology exposure without the volatility of smaller or unprofitable tech companies."
+      },
+      {
+        "topic": "comparisons",
+        "content": "Compared to smaller or newer technology companies, Apple offers more stability due to its scale, brand loyalty, and diversified product lineup. Compared to a broad market fund like the Vanguard S&P 500 ETF (VOO), Apple carries more company-specific risk since its fortunes are tied to a single business rather than hundreds of companies."
+      },
+      {
+        "topic": "history",
+        "content": "Apple was founded in 1976 and became a dominant consumer technology company following the launch of the iPhone in 2007, which fundamentally changed its business and reshaped the smartphone industry."
+      }
+    ]
   },
   {
     "name": "Vanguard S&P 500 ETF",
@@ -17,7 +43,33 @@
     "description": "The Vanguard S&P 500 ETF tracks the performance of the S&P 500 Index, giving investors broad exposure to 500 of the largest publicly traded companies in the United States across all major sectors. It is widely used as a low-cost, passively managed core holding for long-term investors seeking diversified exposure to the U.S. equity market.",
     "current_price": 512.3,
     "performance_ytd": 11.8,
-    "risk_level": "moderate"
+    "risk_level": "moderate",
+    "topics": [
+      {
+        "topic": "business_model",
+        "content": "VOO does not pick individual stocks. Instead, it passively holds shares of all 500 companies in the S&P 500 Index in proportion to their size, so its performance simply mirrors the overall U.S. large-cap stock market rather than depending on any single company's success."
+      },
+      {
+        "topic": "growth_drivers",
+        "content": "Because VOO tracks the broad U.S. economy, its growth is driven by the combined earnings growth of America's largest public companies across every major sector, rather than any single trend, company, or industry."
+      },
+      {
+        "topic": "risks",
+        "content": "VOO's main risk is broad market risk: if the overall U.S. stock market declines, VOO declines with it, since it offers no protection against a general downturn and carries no guarantee of positive returns in any given year."
+      },
+      {
+        "topic": "investor_suitability",
+        "content": "VOO is commonly used as a core, long-term holding for investors who want broad exposure to the U.S. stock market without trying to pick individual winning companies. It tends to suit investors with a longer time horizon who are comfortable with moderate stock market volatility."
+      },
+      {
+        "topic": "comparisons",
+        "content": "Compared to holding individual stocks like Apple (AAPL) or NVIDIA (NVDA), VOO spreads risk across 500 companies, reducing the impact of any single company underperforming. Compared to a bond fund like the Vanguard Total Bond Market ETF (BND), VOO offers higher long-term growth potential but with significantly more short-term price swings."
+      },
+      {
+        "topic": "history",
+        "content": "The S&P 500 Index that VOO tracks has been a benchmark for the U.S. stock market since 1957, and low-cost index funds like VOO became popular starting in the 1970s and 1980s as a simpler, lower-cost alternative to actively managed mutual funds."
+      }
+    ]
   },
   {
     "name": "Bitcoin",
@@ -27,7 +79,33 @@
     "description": "Bitcoin is a decentralized digital currency that operates without a central bank or single administrator, using a peer-to-peer network and blockchain technology to record transactions. It is the first and largest cryptocurrency by market capitalization and is often viewed by investors as a speculative store of value, sometimes referred to as digital gold.",
     "current_price": 64200,
     "performance_ytd": 38.6,
-    "risk_level": "high"
+    "risk_level": "high",
+    "topics": [
+      {
+        "topic": "business_model",
+        "content": "Bitcoin doesn't generate revenue or earnings like a company. Its value comes entirely from what buyers and sellers are willing to pay for it, driven by its limited supply, adoption as a store of value, and use as a means of transferring money outside traditional banking systems."
+      },
+      {
+        "topic": "growth_drivers",
+        "content": "Bitcoin's price has historically been driven by growing investor adoption, its fixed and capped supply of 21 million coins, increasing institutional interest, and its narrative as a hedge against inflation or currency devaluation."
+      },
+      {
+        "topic": "risks",
+        "content": "Bitcoin is known for extreme price volatility, with swings of double-digit percentages in short periods. It also faces regulatory uncertainty in many countries, security risks around exchanges and wallets, and has no underlying cash flow or earnings to anchor its value."
+      },
+      {
+        "topic": "investor_suitability",
+        "content": "Because of its high volatility and speculative nature, Bitcoin is generally considered suitable only for investors who can tolerate large swings in value and who allocate a small portion of their overall portfolio to it, rather than treating it as a core holding."
+      },
+      {
+        "topic": "comparisons",
+        "content": "Unlike stocks such as Apple (AAPL) or funds like the Vanguard S&P 500 ETF (VOO), Bitcoin has no underlying company, earnings, or dividends backing its price. Compared to a bond fund like the Vanguard Total Bond Market ETF (BND), Bitcoin offers dramatically higher potential returns alongside dramatically higher risk and volatility."
+      },
+      {
+        "topic": "history",
+        "content": "Bitcoin was created in 2009 by an anonymous person or group using the pseudonym Satoshi Nakamoto, and it was the first cryptocurrency to successfully use blockchain technology to enable peer-to-peer digital payments without a central authority."
+      }
+    ]
   },
   {
     "name": "Vanguard Total Bond Market ETF",
@@ -37,7 +115,33 @@
     "description": "The Vanguard Total Bond Market ETF provides broad exposure to U.S. investment-grade bonds, including government, corporate, and mortgage-backed securities across short-, intermediate-, and long-term maturities. It is commonly used to add stability and income to a portfolio and to offset the volatility of equity holdings.",
     "current_price": 72.1,
     "performance_ytd": 3.4,
-    "risk_level": "low"
+    "risk_level": "low",
+    "topics": [
+      {
+        "topic": "business_model",
+        "content": "BND pools investor money to hold a broad mix of U.S. investment-grade bonds, including government, corporate, and mortgage-backed debt. Investors earn returns primarily through the interest payments made by these bonds, along with modest price changes."
+      },
+      {
+        "topic": "growth_drivers",
+        "content": "BND's returns are primarily driven by prevailing interest rates and the interest income paid by the bonds it holds, rather than the kind of growth potential associated with stocks."
+      },
+      {
+        "topic": "risks",
+        "content": "The main risks for BND are interest rate risk, since bond prices generally fall when interest rates rise, and to a lesser extent credit risk if any bond issuers face financial difficulty. Its overall risk level is low compared to stocks or crypto."
+      },
+      {
+        "topic": "investor_suitability",
+        "content": "BND is commonly used by investors seeking stability, income, and lower volatility, including those nearing retirement or looking to balance out the volatility of stock holdings elsewhere in their portfolio."
+      },
+      {
+        "topic": "comparisons",
+        "content": "Compared to stock funds like the Vanguard S&P 500 ETF (VOO) or individual stocks like Apple (AAPL) and NVIDIA (NVDA), BND offers much lower volatility but also lower long-term growth potential. It is often paired with stock holdings to reduce a portfolio's overall swings."
+      },
+      {
+        "topic": "history",
+        "content": "Broad bond market index funds like BND emerged to give everyday investors the same kind of diversified, low-cost access to the bond market that index funds like VOO provide for stocks."
+      }
+    ]
   },
   {
     "name": "NVIDIA Corporation",
@@ -47,6 +151,32 @@
     "description": "NVIDIA Corporation designs graphics processing units (GPUs) for gaming, professional visualization, data centers, and automotive markets, and has become a leading provider of the hardware and software platforms used to train and run artificial intelligence models. Its data center and AI accelerator business has driven significant revenue growth in recent years.",
     "current_price": 138.7,
     "performance_ytd": 62.1,
-    "risk_level": "high"
+    "risk_level": "high",
+    "topics": [
+      {
+        "topic": "business_model",
+        "content": "NVIDIA designs and sells graphics processing units (GPUs) and related hardware and software. Its revenue comes from selling this hardware to gaming companies, data centers, and enterprises building artificial intelligence systems, rather than from software subscriptions."
+      },
+      {
+        "topic": "growth_drivers",
+        "content": "NVIDIA's recent growth has been driven largely by surging demand for the specialized chips used to train and run artificial intelligence models, as data centers and technology companies race to build out AI infrastructure."
+      },
+      {
+        "topic": "risks",
+        "content": "Key risks for NVIDIA include intense competition from other chipmakers, the cyclical nature of semiconductor demand, dependence on a small number of large customers, and the possibility that AI-related demand could slow or fail to meet high investor expectations."
+      },
+      {
+        "topic": "investor_suitability",
+        "content": "NVIDIA is generally considered a higher-risk technology holding suited to investors comfortable with significant price swings in exchange for exposure to fast-growing areas like artificial intelligence and advanced computing."
+      },
+      {
+        "topic": "comparisons",
+        "content": "Compared to Apple (AAPL), NVIDIA's revenue is more concentrated in specialized hardware for a narrower set of high-growth markets, making it more volatile. Compared to a broad fund like the Vanguard S&P 500 ETF (VOO), NVIDIA offers more concentrated upside potential paired with more concentrated risk."
+      },
+      {
+        "topic": "history",
+        "content": "NVIDIA was founded in 1993 and originally focused on graphics chips for video games before its hardware proved well-suited to the parallel computing demands of artificial intelligence, driving major growth in recent years."
+      }
+    ]
   }
 ]
