@@ -1,17 +1,26 @@
 {
-  "name": "investment-rag-backend",
+  "name": "stocksage",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "RAG-powered investment chatbot backend — real-time per-stock data gathering, pgvector retrieval, and a hybrid grounded/general-knowledge chat answerer.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "node --watch index.js",
     "retrieve": "node scripts/test-retrieval.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "rag",
+    "retrieval-augmented-generation",
+    "gemini",
+    "pgvector",
+    "supabase",
+    "finnhub",
+    "chatbot",
+    "stocks"
+  ],
+  "author": "akachi11",
+  "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.117.1",
