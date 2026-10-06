@@ -5,26 +5,18 @@ const { generateAnswer } = require("../lib/chat");
 const router = express.Router();
 
 router.post("/", async (req, res) => {
-  const { question } = req.body;
+  const { question, ticker } = req.body;
 
   if (!question || typeof question !== "string" || !question.trim()) {
     return res.status(400).json({ error: '"question" is required.' });
   }
 
   try {
-    const chunks = await retrieveRelevantChunks(question);
+    const chunks = await retrieveRelevantChunks(question, { ticker });
+    const { answer, grounded } = await generateAnswer(question, chunks);
+    const sources = grounded ? [...new Set(chunks.map((chunk) => chunk.ticker))] : [];
 
-    if (chunks.length === 0) {
-      return res.json({
-        answer: "I don't have any information relevant to that question yet.",
-        sources: [],
-      });
-    }
-
-    const answer = await generateAnswer(question, chunks);
-    const sources = [...new Set(chunks.map((chunk) => chunk.ticker))];
-
-    res.json({ answer, sources });
+    res.json({ answer, sources, grounded });
   } catch (error) {
     console.error("Chat endpoint failed:", error);
     res.status(500).json({ error: "Something went wrong generating a response." });
